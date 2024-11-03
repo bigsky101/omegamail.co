@@ -1,64 +1,85 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to OmegaMail.co</title>
+    <title>OmegaMail.co</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            background-color: #f4f4f4;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-        .hero {
-            background-color: #007BFF;
-            color: white;
-            padding: 5rem 0;
-            flex: 1; /* Allow hero to grow and take space */
-        }
-        .footer {
-            background-color: #343a40;
-            color: white;
-            padding: 1rem 0;
-        }
-        .centered-container {
-            text-align: center; /* Center text inside the container */
-            margin: 2rem auto; /* Margin for spacing and auto for horizontal centering */
-            max-width: 600px; /* Set a max width for better control */
-        }
-        .btn-custom {
-            background-color: #007BFF;
-            color: white;
-            border: none; /* Remove border for a cleaner look */
-        }
-        .btn-custom:hover {
-            background-color: #0056b3; /* Darker shade for hover effect */
-            color: white;
-        }
+	<style>
+    .hero {
+    background: linear-gradient(45deg, #310E27 0%, #992745 100%);
+    color: white;
+}
+.card {
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+a {
+    color: #731E3A; /* Set hyperlink color */
+    text-decoration: underline; /* underline */
+}
+a:hover {
+    color: #8E2441; /* Hover color for hyperlinks */
+}
     </style>
 </head>
 <body>
-    <header class="hero text-center">
-        <div class="container my-5">
-            <h1 class="display-4">Welcome to OmegaMail.co</h1>
+
+    <header class="hero py-5">
+        <div class="container text-center">
+        <a href="/">
+<img src="https://imagemore.click/images/omegamail.webp" alt="OmegaMail.co" class="img-fluid">
+</a>
         </div>
-    </header>
+    </header>  
+    
+    <section class="my-5">
+    		<h1 class="text-center mb-4">OmegaMail.co</h1>
+            <h2 class="text-center mb-4">Your future email platform.</h2>
+            
+        </section>
+    
+    <main class="container my-5">
+    
+        <section class="row g-4">
+        <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://imagemore.click/images/email1.webp" class="card-img-top" alt="Placeholder image">
+                    <div class="card-body">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://imagemore.click/images/email2.webp" class="card-img-top" alt="Placeholder image">
+                    <div class="card-body">
+                                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://imagemore.click/images/email3.webp" class="card-img-top" alt="Placeholder image">
+                    <div class="card-body">
+                     
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <div class="container centered-container">
-        <p class="lead">Your future email platform.</p>
-        <a href="/" class="btn btn-custom btn-lg">Learn More</a>
-    </div>    
+        
+    </main>
 
-    <footer class="footer text-center">
-        <div class="container">
-            <p>&copy; 2024 OmegaMail.co. All rights reserved.</p>
+    <footer class="bg-dark text-light py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 OmegaMail.co | All rights reserved.</p>
         </div>
     </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>

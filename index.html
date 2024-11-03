@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,6 +25,20 @@
             color: white;
             padding: 1rem 0;
         }
+        .centered-container {
+            text-align: center; /* Center text inside the container */
+            margin: 2rem auto; /* Margin for spacing and auto for horizontal centering */
+            max-width: 600px; /* Set a max width for better control */
+        }
+        .btn-custom {
+            background-color: #007BFF;
+            color: white;
+            border: none; /* Remove border for a cleaner look */
+        }
+        .btn-custom:hover {
+            background-color: #0056b3; /* Darker shade for hover effect */
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -32,11 +48,11 @@
         </div>
     </header>
 
-<div class="container my-5">
-            <p class="lead">Your future email platform.</p>
-            <a href="/" class="btn btn-light btn-lg">Learn More</a>
-</div>    
-    
+    <div class="container centered-container">
+        <p class="lead">Your future email platform.</p>
+        <a href="/" class="btn btn-custom btn-lg">Learn More</a>
+    </div>    
+
     <footer class="footer text-center">
         <div class="container">
             <p>&copy; 2024 OmegaMail.co. All rights reserved.</p>

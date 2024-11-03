@@ -8,11 +8,15 @@
     <style>
         body {
             background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
         .hero {
             background-color: #007BFF;
             color: white;
             padding: 5rem 0;
+            flex: 1; /* Allow hero to grow and take space */
         }
         .footer {
             background-color: #343a40;
@@ -23,7 +27,7 @@
 </head>
 <body>
     <header class="hero text-center">
-        <div class="container">
+        <div class="container my-5">
             <h1 class="display-4">Welcome to OmegaMail.co</h1>
             <p class="lead">Your future email platform.</p>
             <a href="/" class="btn btn-light btn-lg">Learn More</a>

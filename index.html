@@ -4,42 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to OmegaMail.co</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
             background-color: #f4f4f4;
-            text-align: center;
-            color: #333;
         }
-        h1 {
-            font-size: 2.5em;
-            margin-bottom: 0.5em;
+        .hero {
+            background-color: #007BFF;
+            color: white;
+            padding: 5rem 0;
         }
-        p {
-            font-size: 1.2em;
-            margin-bottom: 1em;
-        }
-        a {
-            text-decoration: none;
-            color: #007BFF;
-            font-weight: bold;
-        }
-        a:hover {
-            text-decoration: underline;
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 1rem 0;
         }
     </style>
 </head>
 <body>
-    <div>
-        <h1>Welcome to OmegaMail.co</h1>
-        <p>Your future email platform.</p>
-        <p><a href="/">Learn More</a></p>
-    </div>
+    <header class="hero text-center">
+        <div class="container">
+            <h1 class="display-4">Welcome to OmegaMail.co</h1>
+            <p class="lead">Your future email platform.</p>
+            <a href="/" class="btn btn-light btn-lg">Learn More</a>
+        </div>
+    </header>
+
+    <footer class="footer text-center">
+        <div class="container">
+            <p>&copy; 2024 OmegaMail.co. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
